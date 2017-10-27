@@ -11,16 +11,12 @@ img {
 	max-height: 100%;
 }
 
-#title {
+.right_align {
 	text-align: right;
 }
 
 .nomargin {
-	margin: 0px;
-}
-
-#logo {
-	padding-left: 0px;
+	margin: 0;
 }
 
 hr {
@@ -44,17 +40,12 @@ article {
 	text-align: center;
 }
 
-@media only screen and (min-device-width : 768px) {
-	#project1 {
-		padding-left: 0px;
-	}
-
-	#project3 {
-		padding-right: 0px;
-	}
-}
-
 #footer {
 	text-align: right;
 	font-style: italic;
+}
+
+.sectionimg {
+	height: 200px;
+	width: 600px;
 }
